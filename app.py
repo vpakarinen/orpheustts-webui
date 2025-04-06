@@ -189,12 +189,12 @@ with gr.Blocks(title="Orpheus TTS Web UI", theme=gr.themes.Base()) as demo:
                     value=1.1, 
                     step=0.1, 
                     label="Repetition Penalty",
-                    info="Required to be ≥ 1.1 for stable generations. Higher values make the model speak faster."
+                    info="Required to be ≥ 1.1 for stable generations. Higher values make the model speak faster"
                 )
             
             generate_btn = gr.Button("Generate Speech", variant="primary")
 
-            audio_output = gr.Audio(label="Generated Audio", type="filepath")
+            audio_output = gr.Audio(label="Generated Speech", type="filepath")
             stats_output = gr.Textbox(label="Statistics", interactive=False)
         
     def auto_load_model():
