@@ -6,7 +6,7 @@ A simple web user interface for Orpheus Human-Like Text-to-Speech.
 
 ## Installation
 
-1. Clone this repository
+1. Clone this repository:
 
 ```bash
 git clone https://github.com/vpakarinen/orpheus-tts-webui.git
@@ -56,7 +56,7 @@ login()
 
 ## Required Files
 
-The application will automatically download the following files if they don't exist
+The application will automatically download the following files if they don't exist:
 
 - Orpheus TTS model files (~6.5GB)
 
