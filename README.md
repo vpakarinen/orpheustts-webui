@@ -51,7 +51,9 @@ After that login with your token:
 pip install huggingface_hub
 
 from huggingface_hub import login
-login()
+
+# Replace "YOUR_TOKEN_HERE" with the token you copied
+login(token="YOUR_TOKEN_HERE")
 ```
 
 ## Required Files
